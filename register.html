@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>MiniShop - Đăng ký</title>
+</head>
+<body>
+    <header>
+        <h1>Đăng ký thành viên</h1>
+        <nav>
+            <a href="index.html">Trang chủ</a> |
+            <a href="about.html">Giới thiệu</a> |
+            <a href="product.html">Sản phẩm</a> |
+            <a href="register.html">Đăng ký</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <form>
+            <p>
+                <label for="name">Họ và tên:</label><br>
+                <input type="text" id="name" name="name">
+            </p>
+
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+                <label for="password">Mật khẩu:</label><br>
+                <input type="password" id="password" name="password">
+            </p>
+
+            <p>
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="text" id="phone" name="phone">
+            </p>
+
+            <p>
+                <label for="category">Sản phẩm quan tâm:</label><br>
+                <select id="category" name="category">
+                    <option>Laptop</option>
+                    <option>Chuột</option>
+                    <option>Bàn phím</option>
+                    <option>Tai nghe</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Giới tính:</label><br>
+                <input type="radio" name="gender" value="male"> Nam
+                <input type="radio" name="gender" value="female"> Nữ
+            </p>
+
+            <p>
+                <label for="message">Ghi chú:</label><br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+            </p>
+
+            <button type="submit">Đăng ký</button>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 MiniShop</p>
+    </footer>
+</body>
+</html>
