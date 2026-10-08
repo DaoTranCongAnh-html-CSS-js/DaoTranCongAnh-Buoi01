@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniShop - Giới thiệu</title>
+    <title>MiniShop - Đăng nhập</title>
 </head>
 <body>
     <header>
@@ -23,30 +23,26 @@
     <hr>
 
     <main>
-        <section>
-            <h2>Giới thiệu MiniShop</h2>
+        <h2>Đăng nhập</h2>
+        <form class="form">
             <p>
-                MiniShop là cửa hàng chuyên cung cấp các sản phẩm công nghệ
-                phục vụ <strong>học tập, lập trình và giải trí</strong>.
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
             </p>
-        </section>
 
-        <section>
-            <h2>Tiêu chí của chúng tôi</h2>
-            <ul>
-                <li>Sản phẩm chất lượng</li>
-                <li>Giá cả hợp lý</li>
-                <li>Tư vấn nhiệt tình</li>
-                <li>Hỗ trợ khách hàng nhanh chóng</li>
-            </ul>
-        </section>
+            <p>
+                <label for="password">Mật khẩu:</label><br>
+                <input type="password" id="password" name="password" required>
+            </p>
 
-        <section>
-            <h2>Liên hệ</h2>
-            <p>Email: minishop@gmail.com</p>
-            <p>Hotline: 0123 456 789</p>
-            <p>Địa chỉ: Thành phố Hồ Chí Minh</p>
-        </section>
+            <p>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Ghi nhớ đăng nhập</label>
+            </p>
+
+            <button type="submit">Đăng nhập</button>
+        </form>
+        <p>Chưa có tài khoản? <a href="register.html">Đăng ký</a></p>
     </main>
 
     <hr>
